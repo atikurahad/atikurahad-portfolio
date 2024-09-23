@@ -1,0 +1,26 @@
+
+.hero-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    font:bolder ;
+    padding: 10px;
+    color:#002D5B;
+}
+.hero-name{
+    font-size: 5rem;
+}
+.dev-img{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    background-color: #CF332B;
+    padding: 12px;
+    border: 2px double black;
+    color: white;
+}
+.hero-details{
+    display: flex;
+    flex-direction: column;
+}
