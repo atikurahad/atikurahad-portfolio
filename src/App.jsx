@@ -1,16 +1,17 @@
+import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+import Nav from "./components/Nav"
 
  
 function App() {
 
   return (
     <>
-
-<h1 className="text-2xl text-red-700"> Hello! are you listening...</h1>
   
-
+<Nav />
   <Hero/>
+  <Contact/>
   <Footer/>
     </>
   )

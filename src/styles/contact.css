@@ -1,0 +1,31 @@
+
+
+.dev-card{
+    height: 10rem;
+    width: 18rem;
+    background: #e9ede6;
+    color: #002D5B;
+    display: flex;
+    flex-direction: column;
+ 
+    text-align: center;
+}
+.card-main{
+margin-top: 15px;
+margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+
+}
+#icon{
+    font-size: 3rem;
+    color: #EC5B53;
+    margin-top: 15px;
+margin-bottom: 15px;
+}
+#dev-data{
+   font-size: 1.5rem;
+   font-weight: bold;
+
+}

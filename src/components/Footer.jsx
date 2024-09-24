@@ -5,8 +5,9 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 function Footer() {
+  const year =new Date()
   return (
-    <div className="dev-footer">
+    <footer className="dev-footer">
       <section className="footer-icon">
         <FaFacebookSquare />
         <FaSquareXTwitter />
@@ -16,9 +17,12 @@ function Footer() {
 
       <p className="copyright">
         {" "}
-        <span>&copy;</span> All rights reserved by Atikur-Ahad {Date.now()}
+        <span>&copy;</span> All rights reserved by Atikur-Ahad {year.getFullYear()}
       </p>
-    </div>
+
+    
+
+    </footer>
   );
 }
 

@@ -13,11 +13,16 @@ function Hero() {
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus luctusnec ullamcorper mattis, pulvinar dapibus leop
-            llamcorper, lorem ipsum.
+            Detail-oriented junior ReactJS developer with a solid foundation in
+            front-end technologies, including HTML, CSS, and JavaScript. Eager
+            to contribute to dynamic web applications and enhance user
+            experiences through innovative design and efficient coding
+            practices. Passionate about collaborating with teams to solve
+            problems and learn new technologies in a fast-paced environment.
           </p>
-          <button className="btn" onClick={()=>alert("coming")}>Learn More</button>
+          <button className="btn" onClick={() => alert("coming")}>
+            Learn More
+          </button>
         </article>
 
         <img

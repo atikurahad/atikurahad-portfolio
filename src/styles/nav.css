@@ -1,0 +1,13 @@
+.dev-nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    padding: 8px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+
+}

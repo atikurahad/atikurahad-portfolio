@@ -16,6 +16,8 @@
 }
 .btn{
     background-color: #CF332B;
+    width: 10rem;
+    margin: 18px;
     padding: 12px;
     border: 2px double black;
     color: white;
